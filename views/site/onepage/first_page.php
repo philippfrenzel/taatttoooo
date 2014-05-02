@@ -66,7 +66,10 @@ echo philippfrenzel\yii2imageslider\yii2imageslider::widget(array(
 ?> 
             </div>
             <div class="col-md-6">
-                
+                <h2>Tattoo</h2>
+                <p>
+                    I'm wearing this tattoo because I can. As a child I always wanted to be a fire fighter!
+                </p>
             </div>
         </div>
     </div>
