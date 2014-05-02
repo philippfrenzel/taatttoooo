@@ -1,2 +1,5 @@
 #ignore the vendor folder
 vendor/*
+
+#ignore the following files
+composer.lock
