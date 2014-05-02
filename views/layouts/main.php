@@ -26,27 +26,36 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => 'My Company',
+                'id' => 'myMainMenu',
+                'brandLabel' => '',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
+
+    ?>
+
+    <div class="navbar-brand">
+        <img src="img/LogoTaatttooooNavbar.png" alt="Taatttoooo - Share your Tattoo and Story">
+    </div>
+
+    <?php
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
-                    ['label' => 'Home', 'url' => ['/site/index']],
+                    ['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
                     ['label' => 'About', 'url' => ['/site/about']],
                     ['label' => 'Contact', 'url' => ['/site/contact']],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
-                        ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
                             'url' => ['/site/logout'],
                             'linkOptions' => ['data-method' => 'post']],
                 ],
             ]);
             NavBar::end();
-        ?>
+    ?>
 
         <div class="container">
             <?= Breadcrumbs::widget([

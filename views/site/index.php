@@ -8,5 +8,5 @@ $this->title = 'Taatttoooo Startpage';
     <?= $this->render('onepage/first_page', []); ?>
 </div>
 <div class="section" id="intro2" data-anchor="intro2">
-    <?= $this->render('onepage/first_page', []); ?>
+    <?= $this->render('onepage/scnd_page', []); ?>
 </div>
