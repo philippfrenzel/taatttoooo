@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widgets.git",
-                "reference": "d19567c3cc5a2436ec7eae6ec6bfa427d6184094"
+                "reference": "92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/d19567c3cc5a2436ec7eae6ec6bfa427d6184094",
-                "reference": "d19567c3cc5a2436ec7eae6ec6bfa427d6184094",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9",
+                "reference": "92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1574,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2014-05-02 10:49:22"
+            "time": "2014-05-02 13:18:31"
         },
         {
             "name": "knplabs/gaufrette",
