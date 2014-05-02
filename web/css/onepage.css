@@ -9,6 +9,11 @@
   font-size: 80px;
 }
 
+#intro1 h2{
+  font-family: Lobster;
+  font-size: 40px;
+}
+
 #intro2{
   background: url("../gfx/elenabw.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
   min-height: 800px;
