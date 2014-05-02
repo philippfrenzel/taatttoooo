@@ -37,19 +37,37 @@
     </div>
 </div>
 
-<?php
-
-?>
-
 <div class="slide" data-anchor="slide2" id="slide2">
     <div class="container">
-        <div class="slider single-item">
-            <div><h3>1</h3></div>
-            <div><h3>2</h3></div>
-            <div><h3>3</h3></div>
-            <div><h3>4</h3></div>
-            <div><h3>5</h3></div>
-            <div><h3>6</h3></div>
+        <div class="row">
+            <div class="col-md-6 bg-color-darken">
+<?php 
+echo philippfrenzel\yii2imageslider\yii2imageslider::widget(array(
+    'id' => 'sp_slider',
+    'items'=> array(
+        array(
+            'caption'=>'Sample Image',
+            'content' => '<img src="articles/1.jpg" alt="Sample" class="reponsive">'
+        ),
+        array(
+            'caption'=>'Longtail',
+            'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
+        ),
+        array(
+            'caption'=>'Blobber',
+            'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
+        )                           
+    ),
+    'clientOptions' => array(
+        'visible_items'=>1,
+        'circular' => 'yes',
+    ),
+));
+?> 
+            </div>
+            <div class="col-md-6">
+                
+            </div>
         </div>
     </div>
 </div>
