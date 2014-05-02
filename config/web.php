@@ -8,6 +8,13 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'extensions' => require(__DIR__ . '/../vendor/yiisoft/extensions.php'),
+    'modules' => [
+        'packaii' => [
+            'class' => 'schmunk42\packaii\Module',
+            'gitHubUsername' => 'philippfrenzel',
+            'gitHubPassword' => 'cassandra0903'
+        ],
+    ],
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
