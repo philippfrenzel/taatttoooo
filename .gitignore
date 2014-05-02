@@ -4,3 +4,4 @@ vendor/*
 #ignore the following files
 
 composer.lock
+composer.lock
