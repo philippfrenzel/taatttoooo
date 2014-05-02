@@ -4,7 +4,7 @@
  */
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
+<div class="section" id="intro1" data-anchor="intro1">
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>
