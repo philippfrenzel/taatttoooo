@@ -1,5 +1,6 @@
 #intro1{
-  background-color: #000000;
+  background: url("../gfx/broKettleBW.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  min-height: 800px;
   color:#efefef;
 }
 
