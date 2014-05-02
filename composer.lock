@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6f1ac9b8a6b61a2de280b670a87a4c46",
+    "hash": "4f329f8bf7926eaab101d0aca4ceee0b",
     "packages": [
         {
             "name": "2amigos/yii2-arrayquery-component",
@@ -699,6 +699,47 @@
             "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
             "homepage": "https://github.com/dompdf/dompdf",
             "time": "2014-03-11 01:59:52"
+        },
+        {
+            "name": "drmabuse/yii2-slick-carousel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brewing/yii2-slick.git",
+                "reference": "85bd870d7af76710e85d99b371eb97cdc744b690"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brewing/yii2-slick/zipball/85bd870d7af76710e85d99b371eb97cdc744b690",
+                "reference": "85bd870d7af76710e85d99b371eb97cdc744b690",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "drmabuse\\slick\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Brewing",
+                    "email": "pascalbrewing@gmail.com",
+                    "homepage": "http://pascal-breiwng.de/",
+                    "role": "Founder and development"
+                }
+            ],
+            "description": "the last carousel you'll ever need",
+            "keywords": [
+                "extension",
+                "js-carousel",
+                "responsive",
+                "yii2"
+            ],
+            "time": "2014-04-08 19:39:05"
         },
         {
             "name": "erusev/parsedown",
@@ -1534,12 +1575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widgets.git",
-                "reference": "92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9"
+                "reference": "a816efdb76c4dc81912c1808e027eec280a00317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9",
-                "reference": "92c0bd6d5dd4282d6986d608655aeb0e10dcb1a9",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widgets/zipball/a816efdb76c4dc81912c1808e027eec280a00317",
+                "reference": "a816efdb76c4dc81912c1808e027eec280a00317",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1615,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2014-05-02 13:18:31"
+            "time": "2014-05-02 16:33:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -2384,12 +2425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/phpDocumentor2.git",
-                "reference": "0e44ec27e896c1ea0cbf4272defebd4c4393d1e5"
+                "reference": "c277f2114baf9dff7ecd8024f499cd1761792b33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/phpDocumentor2/zipball/0e44ec27e896c1ea0cbf4272defebd4c4393d1e5",
-                "reference": "0e44ec27e896c1ea0cbf4272defebd4c4393d1e5",
+                "url": "https://api.github.com/repos/phpDocumentor/phpDocumentor2/zipball/c277f2114baf9dff7ecd8024f499cd1761792b33",
+                "reference": "c277f2114baf9dff7ecd8024f499cd1761792b33",
                 "shasum": ""
             },
             "require": {
@@ -2442,7 +2483,8 @@
                 "ext-xslcache": "Enabling the XSLCache extension improves the generation of xml based templates."
             },
             "bin": [
-                "bin/phpdoc.php"
+                "bin/phpdoc.php",
+                "bin/phpdoc"
             ],
             "type": "library",
             "extra": {
@@ -2471,7 +2513,7 @@
                 "documentation",
                 "phpdoc"
             ],
-            "time": "2014-04-27 20:43:06"
+            "time": "2014-05-02 15:00:25"
         },
         {
             "name": "phpdocumentor/reflection",
@@ -3832,12 +3874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "a01931b9f31d96ce0407050bfdd3f2bf7a3b9b05"
+                "reference": "84ccd58b9290cfffbde952094f2b1c5f1e934a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a01931b9f31d96ce0407050bfdd3f2bf7a3b9b05",
-                "reference": "a01931b9f31d96ce0407050bfdd3f2bf7a3b9b05",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/84ccd58b9290cfffbde952094f2b1c5f1e934a8d",
+                "reference": "84ccd58b9290cfffbde952094f2b1c5f1e934a8d",
                 "shasum": ""
             },
             "require": {
@@ -3902,7 +3944,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-05-02 11:29:26"
+            "time": "2014-05-02 17:03:35"
         },
         {
             "name": "yiisoft/yii2-authclient",
