@@ -43,7 +43,7 @@ AppAsset::register($this);
 	?>
 
 	<div class="navbar-brand">
-		<img src="img/logo_small_75.png" alt="NeighborDrop - Social Platform">
+		<img src="img/logo_small_75.png" alt="Taatttoooo - Social Platform">
 	</div>
 
 	<?php
@@ -72,20 +72,13 @@ AppAsset::register($this);
 	
 	<?= $content ?>	
 	
-	<div class="section" id="intro2">
-		<h1>Hello World!</h1>
-	</div>
-	<div class="section">
-		<?= Breadcrumbs::widget([
-			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-		]) ?>
-		<footer class="footer">
-			<div class="container">
-				<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
-				<p class="pull-right"><?= Yii::powered() ?></p>
-			</div>
-		</footer>
-	</div>	
+	
+	<footer class="footer">
+		<div class="container">
+			<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
+			<p class="pull-right"><?= Yii::powered() ?></p>
+		</div>
+	</footer>
 
 <?php $this->endBody() ?>
 </body>
