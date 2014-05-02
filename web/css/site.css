@@ -10,6 +10,10 @@ body {
 	min-height: 90px;
 }
 
+.navbar-inverse{
+	background-color: #000000;
+}
+
 .wrap {
 	min-height: 100%;
 	height: auto;
