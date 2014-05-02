@@ -49,6 +49,7 @@ class SiteController extends AppController
 
     public function actionIndex()
     {
+        $this->layout = "/onepage";
         return $this->render('index');
     }
 
