@@ -6,6 +6,10 @@ body {
 	background-color: #010101;
 }
 
+.navbar{
+	min-height: 90px;
+}
+
 .wrap {
 	min-height: 100%;
 	height: auto;

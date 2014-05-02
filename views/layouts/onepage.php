@@ -43,7 +43,7 @@ AppAsset::register($this);
 	?>
 
 	<div class="navbar-brand">
-		<img src="img/logo_small_75.png" alt="Taatttoooo - Social Platform">
+		<img src="img/LogoTaatttooooNavbar.png" alt="Taatttoooo - Share your Tattoo and Story">
 	</div>
 
 	<?php
@@ -75,7 +75,7 @@ AppAsset::register($this);
 	
 	<footer class="footer">
 		<div class="container">
-			<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
+			<p class="pull-left">&copy; Taatttoooo.com <?= date('Y') ?></p>
 			<p class="pull-right"><?= Yii::powered() ?></p>
 		</div>
 	</footer>
