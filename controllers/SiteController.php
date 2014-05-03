@@ -9,6 +9,8 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
+use yii\web\Session;
+
 class SiteController extends AppController
 {
     /**
@@ -55,6 +57,9 @@ class SiteController extends AppController
 
     public function actionIndex()
     {
+        $session = new Session;
+        $session->open();
+        $session['webname'] = 'Taatttoooo';
         $this->layout = "/onepage";
         return $this->render('index');
     }
