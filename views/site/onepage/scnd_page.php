@@ -1,18 +1,5 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <h1 class="ultrabig">About Us!</h1>
-        </div>
-        <div class="col-md-6">
-            
-        </div>
-    </div>
-
-   <div class="row">
-       &nbsp;
-   </div>
-
-    <div class="row">
         <div class="col-lg-4">
         </div>
         <div class="col-lg-4">
@@ -33,6 +20,17 @@
                 solutions to share with the community is one of our main targets. So the taatttoooo page
                 has been setup to take care of one of the other main targets which is named FUN!
             </p>
+        </div>
+    </div>
+    <div class="row">
+       &nbsp;
+   </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="ultrabig">About Us!</h1>
+        </div>
+        <div class="col-md-6">
+            
         </div>
     </div>
 </div>
