@@ -96,7 +96,7 @@ class DmsysController extends AppController
             if($model->save() && $model->fileattachement->saveAs(\Yii::$app->basePath."/attachements/".$model->dms_module."/".$model->id))
             {              
               $model::generateThumb($model);
-              return $this->redirect('/site/index']);
+              return $this->redirect('/site/index');
             }
             else
             {
