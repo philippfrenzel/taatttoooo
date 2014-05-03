@@ -6,12 +6,14 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
 use philippfrenzel\yii2fullpagejs\yii2fullpagejs;
+use kartik\icons\Icon;
 
 /**
  * @var \yii\web\View $this
  * @var string $content
  */
 AppAsset::register($this);
+Icon::map($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
