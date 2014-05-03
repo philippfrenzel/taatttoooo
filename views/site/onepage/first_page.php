@@ -46,14 +46,11 @@ echo philippfrenzel\yii2sly\yii2sly::widget(array(
     'id' => 'sp_slider',
     'items'=> array(
         array(
+            'content' => '<img src="articles/2.jpg" alt="Sample">'
+        ),
+        array(
             'content' => '<img src="articles/1.jpg" alt="Sample">'
-        ),
-        array(
-            'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
-        ),
-        array(
-            'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
-        )                           
+        )                          
     ),
     /*'clientOptions' => array(
         'visible_items'=>1,
@@ -66,6 +63,20 @@ echo philippfrenzel\yii2sly\yii2sly::widget(array(
                 <h2>Tattoo</h2>
                 <p class="bg-color-darken opacity">
                     I'm wearing this tattoo because I can. As a child I always wanted to be a fire fighter!
+                </p>
+                <h2>Past</h2>
+                <p class="bg-color-darken opacity">
+                    Grewn up in germany on the country side, you sometimes feel bored - so watching cartoons has
+                    been my only fun! My favorite cartoon was grisu the small dragon, specially of his father...
+                </p>
+                <h2>Present</h2>
+                <p class="bg-color-darken opacity">
+                    Living in vienna and working at a big software companie... watching my little dragon tattoo makes
+                    me miss the boring times when I was young...
+                </p>
+                <h2>Future</h2>
+                <p class="bg-color-darken opacity">
+                    Who knows... Stay healthy, have fun and maybe a little baby dragon...
                 </p>
             </div>
         </div>
