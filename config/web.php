@@ -15,7 +15,7 @@ $config = [
             'gitHubPassword' => 'cassandra0903'
         ],
     ],
-    'components' => [
+    'components' => [        
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
