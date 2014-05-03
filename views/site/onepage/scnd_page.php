@@ -4,7 +4,11 @@
             <h2>Upload your pictures...</h2>
 
             <p class="bg-color-darken opacity">
-                FORMULAR
+                Here you can select a file from your local file system and upload it
+                to our "photoshopers". If you have questions, pls. send us an email to
+                photoshopers (at) taatttooo com! Thanks!
+                <hr>
+                <?= $this->render('/dmsys/_upload_form', ['model'=>$model]); ?>
             </p>
         </div>
         <div class="col-lg-6">

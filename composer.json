@@ -19,6 +19,8 @@
 		"yiisoft/yii2-bootstrap": "*",
 		"yiisoft/yii2-swiftmailer": "*",
 		"frenzelgmbh/appcommon": "*",
+		"jamesheinrich/phpthumb": "dev-master",
+		"2amigos/yii2-file-input-widget" : "*",
 		"philippfrenzel/yii2fullpagejs": "dev-master",
 		"philippfrenzel/yii2sly": "dev-master"
 	},
