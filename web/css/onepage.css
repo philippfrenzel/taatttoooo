@@ -50,3 +50,9 @@ h1.ultrabig{
   min-height: 800px;
   color:#efefef;
 }
+
+#intro3{
+  background: url("../gfx/turtlecolor.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  min-height: 800px;
+  color:#efefef;
+}
