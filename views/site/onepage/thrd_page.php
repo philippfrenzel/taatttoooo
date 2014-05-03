@@ -37,6 +37,6 @@
 <footer id="footer">
     <div class="container">
         <p class="pull-left">&copy; Taatttoooo.com <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right">Frenzel GmbH &lt;frenzel.net&gt;</p>
     </div>
 </footer>
