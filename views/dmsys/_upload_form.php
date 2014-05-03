@@ -8,7 +8,7 @@ use dosamigos\fileinput\FileInput;
 ?>
 
 <?php $form = ActiveForm::begin([
-  'action' => Url::to(['/dms/default/attachfile']),
+  'action' => Url::to(['/dmsys/attachfile']),
   'method' => 'post',
   'options' => [
    'enctype' => 'multipart/form-data',

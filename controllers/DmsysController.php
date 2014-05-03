@@ -47,7 +47,7 @@ class DmsysController extends AppController
               'getlatestattachement',
               'jsonbarchartinbox'
             ),
-            'roles'=>array('@'),
+            'roles'=>array('*'),
           ]
         ]
       ]
