@@ -42,32 +42,29 @@
         <div class="row">
             <div class="col-md-6 bg-color-darken">
 <?php 
-echo philippfrenzel\yii2imageslider\yii2imageslider::widget(array(
+echo philippfrenzel\yii2sly\yii2sly::widget(array(
     'id' => 'sp_slider',
     'items'=> array(
         array(
-            'caption'=>'Sample Image',
-            'content' => '<img src="articles/1.jpg" alt="Sample" class="reponsive">'
+            'content' => '<img src="articles/1.jpg" alt="Sample">'
         ),
         array(
-            'caption'=>'Longtail',
             'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
         ),
         array(
-            'caption'=>'Blobber',
             'content' => '<img style="height:400px;width:400px;" src="/powershopyii2/powershop/web/filemanager/modelle/2014/14-hd-1200-custom-bs.png" alt="">'
         )                           
     ),
-    'clientOptions' => array(
+    /*'clientOptions' => array(
         'visible_items'=>1,
-        'circular' => 'yes',
-    ),
+        'circular' => 'true',
+    ),*/
 ));
 ?> 
             </div>
             <div class="col-md-6">
                 <h2>Tattoo</h2>
-                <p>
+                <p class="bg-color-darken opacity">
                     I'm wearing this tattoo because I can. As a child I always wanted to be a fire fighter!
                 </p>
             </div>
