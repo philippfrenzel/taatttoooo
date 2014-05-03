@@ -49,6 +49,9 @@ echo philippfrenzel\yii2sly\yii2sly::widget(array(
             'content' => '<img src="articles/2.jpg" alt="Sample">'
         ),
         array(
+            'content' => '<img src="articles/3.jpg" alt="Sample">'
+        ),
+        array(
             'content' => '<img src="articles/1.jpg" alt="Sample">'
         )                          
     ),
