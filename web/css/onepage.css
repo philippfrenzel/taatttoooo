@@ -1,10 +1,10 @@
-#slide1{
+#slide2{
   background: url("../gfx/elenabw.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
   min-height: 800px;
   color:#efefef;
 }
 
-#slide2{
+#slide1{
   background: url("../gfx/elenacolor.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
   min-height: 800px;
   color:#efefef;
