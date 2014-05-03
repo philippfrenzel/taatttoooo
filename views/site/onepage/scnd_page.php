@@ -17,27 +17,24 @@
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4">
-                <h2>Show us your Tattoo!</h2>
+                <h2>Where we from...</h2>
 
-                <p class="bg-color-darken opacity">We care about body art and so we would like to share your style and thoughts. Pls. post us your
-                    pictures in "RAW"-format and we'll prepare a "set" for you. None tattoo will be published without
-                    your aggreament of what our "photoshopers" made out of it!
+                <p class="bg-color-darken opacity">
+                    Our headoffice is located in Vienna - Austria. Where we life, study, party and sleep.
+                    We stands for our design team, web coding devision and a lot of wonderfull friends who 
+                    support us. If you wanna join one of them, let us know! webmaster (at) taatttoooo com will
+                    be your point of interest.
                 </p>
             </div>
             <div class="col-lg-4">
-                <h2>And tell us the Story!</h2>
+                <h2>What we do...</h2>
 
                 <p class="bg-color-darken opacity">
-                    As you matter! Pls. tell us the Story that belongs to your tattoo, what it means to you and 
-                    share your thoughts about your life. If you like, let us know about your past, the present and
-                    your future!
+                    We are specialised on online solution development and marketing. Building adorable new
+                    solutions to share with the community is one of our main targets. So the taatttoooo page
+                    has been setup to take care of one of the other main targets which is named FUN!
                 </p>
             </div>
         </div>
-    </div>
-</div>
-<div class="slide" data-anchor="slide22" id="slide22">
-    <div class="container">
-        
     </div>
 </div>
