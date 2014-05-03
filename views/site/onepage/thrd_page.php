@@ -34,3 +34,9 @@
         </div>
     </div>
 </div>
+<footer id="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Taatttoooo.com <?= date('Y') ?></p>
+        <p class="pull-right"><?= Yii::powered() ?></p>
+    </div>
+</footer>
