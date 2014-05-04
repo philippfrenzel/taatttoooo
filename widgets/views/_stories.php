@@ -3,6 +3,8 @@ use yii\helpers\Html;
 use yii\widgets\ListView;
 ?>
 
+<h2>Recent Stories...</h2>
+
 <?php 
   echo ListView::widget(array(
     'id' => 'PortletPostsTable',
