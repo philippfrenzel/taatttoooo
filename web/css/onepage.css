@@ -25,6 +25,7 @@
 h1.ultrabig{
   font-family: Playball;
   font-size: 80px;
+  color: #fff;
 }
 
 .bg-color-darken{
@@ -34,25 +35,28 @@ h1.ultrabig{
 }
 
 .opacity {   
-    opacity: 0.5;       /* modern browser */  
-    -moz-opacity: 0.5;  /* older Mozilla browser */  
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE8 in Standard Compliant Mode */  
-    filter:alpha(opacity=50); /* IE5.x -7.0 */  
+    opacity: 0.7;       /* modern browser */  
+    -moz-opacity: 0.7;  /* older Mozilla browser */  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* IE8 in Standard Compliant Mode */  
+    filter:alpha(opacity=70); /* IE5.x -7.0 */  
 }
 
 #intro1 h2{
   font-family: Lobster;
   font-size: 40px;
+  color: #fff;
 }
 
 #intro2 h2{
   font-family: Lobster;
   font-size: 40px;
+  color: #fff;
 }
 
 #intro3 h2{
   font-family: Lobster;
   font-size: 40px;
+  color: #fff;
 }
 
 #intro2{

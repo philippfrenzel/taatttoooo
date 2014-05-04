@@ -1,29 +1,6 @@
 <div class="slide" data-anchor="slide1" id="slide1">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1 class="ultrabig">Show us your Tattoo and tell us the Story!</h1>
-            </div>
-            <div class="col-md-2">
-                
-            </div>
-            <div class="col-md-4">
-<?php
-    if(class_exists('app\widgets\PortletUserStory'))
-    {
-        echo app\widgets\PortletUserStory::widget([
-            'title' => NULL
-        ]);
-    }
-?>
-            </div>
-        </div>
-
-       <div class="row">
-           &nbsp;
-       </div>
-
-        <div class="row">
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4">
@@ -42,6 +19,24 @@
                     share your thoughts about your life. If you like, let us know about your past, the present and
                     your future!
                 </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="ultrabig">Show us your Tattoo and tell us the Story!</h1>
+            </div>
+            <div class="col-md-2">
+                
+            </div>
+            <div class="col-md-4">
+<?php
+    if(class_exists('app\widgets\PortletUserStory'))
+    {
+        echo app\widgets\PortletUserStory::widget([
+            'title' => NULL
+        ]);
+    }
+?>
             </div>
         </div>
         <div class="row">
