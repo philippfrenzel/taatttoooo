@@ -36,7 +36,7 @@ use dosamigos\fileinput\FileInput;
   'model' => $model,
   'attribute' => 'fileattachement', // image is the attribute
   // using STYLE_IMAGE allows me to display an image. Cool to display previously
-  'style' => FileInput::STYLE_IMAGE
+  'style' => FileInput::STYLE_BUTTON
 ]);?>
 
 <?= Html::activeHiddenInput($model,'dms_module'); ?>
