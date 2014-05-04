@@ -117,7 +117,7 @@ class Dmsys extends \yii\db\ActiveRecord
 		return [
 			['fileattachement', 'file', 'types'=>'jpeg,png,jpg,raw,bmp', 'skipOnEmpty' => true],
 			[['parent', 'owner_id', 'source_security', 'time_expired', 'dms_module','dms_id','creator_id', 'time_deleted', 'time_created'], 'integer'],
-			[['dms_module','dms_id'], 'required'],
+			[['dms_id'], 'required'],
       [['filetype'], 'string', 'max' => 40],
 			[['source_path','filename','uId'], 'string', 'max' => 255],
 			[['used_space', 'status'], 'string', 'max' => 200]
