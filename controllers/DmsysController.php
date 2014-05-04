@@ -100,7 +100,8 @@ class DmsysController extends AppController
    * @return [type] [description]
    */
   public function actionAttachfile(){
-    $model = new Dmsys;    
+    $model = new Dmsys;
+    $model->dms_module = Dmsys::MODULE_STORY;    
     if($model->load(Yii::$app->request->post())) {
         $model->fileattachement=UploadedFile::getInstance($model,'fileattachement');
         if ($model->validate()) {
@@ -123,8 +124,6 @@ class DmsysController extends AppController
             }
         }
     }
-    $model->dms_module = Dmsys::MODULE_STORY;
-    $model->uId = \Yii::$app->session->id;
     return $this->render('_form', [
         'model' => $model,
     ]);
