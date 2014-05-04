@@ -15,7 +15,7 @@ use yii\helpers\Url;
 
     <?php $form = ActiveForm::begin([
         'id'=> 'storyform',
-        'action' => Url::to(['/story/create']),
+        'action' => $model->isNewRecord ? Url::to(['/story/create']) : Url::to(['/story/update','id'=>$model->id]),
         'options' => ['class' => 'form-horizontal'],
     ]); ?>
 

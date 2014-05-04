@@ -55,14 +55,17 @@ class SiteController extends AppController
         ];
     }
 
-    public function actionIndex()
+    public function actionIndex($id=NULL)
     {
-        $session = new Session;
-        $session->open();
-        $session['webname'] = 'Taatttoooo';
-
-        //needs to be refactored
-        $model = new \app\models\Story;
+        if(is_null($id))
+        {
+            $model = new \app\models\Story;
+            $model->uId = \Yii::$app->session->id;    
+        }
+        else
+        {
+            $model = \app\models\Story::findOne($id);
+        }        
         
         $this->layout = "/onepage";
         return $this->render('index',[

@@ -188,7 +188,7 @@ class Dmsys extends \yii\db\ActiveRecord
   public function beforeSave($insert)
   {
     $date = new DateTime('now');
-    if($insert)
+    if(parent::beforeSave($insert))
     {
       if(\Yii::$app->user->isGuest)
       {
