@@ -118,6 +118,7 @@ class DmsysController extends AppController
         }
         exit;
     }
+    $model->dms_module = Dmsys::MODULE_STORY;
     return $this->render('_form', [
         'model' => $model,
     ]);
