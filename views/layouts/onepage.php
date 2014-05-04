@@ -26,6 +26,7 @@ Icon::map($this);
 		$this->registerMetaTag(['name' => 'keywords','lang'=>'en','content' => Html::encode($this->context->metakeywords)], 'meta-keywords');
 	?>
 	<title><?= Html::encode($this->title) ?></title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
 	<?php $this->head() ?>
 </head>
 <body>
