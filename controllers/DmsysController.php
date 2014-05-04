@@ -22,6 +22,12 @@ use \DateTime;
 
 class DmsysController extends AppController
 {
+  /**
+    * setting the main layout
+    * @var string $layout which will be used as the default main layout
+    */
+  public $layout = "/main";
+
   public function behaviors()
   {
     return [
