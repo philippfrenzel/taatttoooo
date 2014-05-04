@@ -30,6 +30,7 @@ use dosamigos\fileinput\FileInput;
 
 <?= Html::activeHiddenInput($model,'dms_module'); ?>
 <?= Html::activeHiddenInput($model,'dms_id'); ?>
+<?= Html::activeHiddenInput($model,'uId'); ?>
 
 <?= Html::submitButton(\Yii::t('app','Upload'), ['class' => 'btn btn-info pull-right']) ?>
 

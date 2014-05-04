@@ -57,19 +57,24 @@ class SiteController extends AppController
 
     public function actionIndex($id=NULL)
     {
+        $dmsysmodel = new \app\models\Dmsys;
+        $dmsysmodel->uId = \Yii::$app->session->id;
         if(is_null($id))
         {
             $model = new \app\models\Story;
-            $model->uId = \Yii::$app->session->id;    
+            $model->uId = \Yii::$app->session->id;
+            $dmsysmodel->dms_id = \Yii::$app->session->id;    
         }
         else
         {
             $model = \app\models\Story::findOne($id);
+            $dmsysmodel->dms_id = $model->id;
         }        
         
         $this->layout = "/onepage";
         return $this->render('index',[
             'model' => $model,
+            'dmsysmodel' => $dmsysmodel,
         ]);
     }
 

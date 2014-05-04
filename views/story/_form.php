@@ -37,7 +37,7 @@ use yii\helpers\Url;
         </div>
     </div>
 
-    <?= $form->field($model, 'uId')->textInput(['maxlength' => 255]) ?>
+    <?= Html::activeHiddenInput($model,'uId'); ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Submit' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

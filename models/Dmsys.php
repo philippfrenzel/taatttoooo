@@ -193,12 +193,10 @@ class Dmsys extends \yii\db\ActiveRecord
       if(\Yii::$app->user->isGuest)
       {
         $this->creator_id = 0; //external system writer
-        $this->uId = Yii::$app->session->id;
       }
       else
       {
         $this->creator_id = \Yii::$app->user->identity->id;
-        $this->uId = \Yii::$app->session->id;
       }      
     }
     if(is_null($this->time_created))

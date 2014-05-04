@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4">
             <h2>Upload your pictures...</h2>
-            <?= $this->render('/dmsys/_upload_form', ['model'=> new app\models\Dmsys]); ?>
+            <?= $this->render('/dmsys/_upload_form', ['model'=> $dmsysmodel]); ?>
         </div>
         <div class="col-lg-8">
             <h2>Tell us your story...</h2>
