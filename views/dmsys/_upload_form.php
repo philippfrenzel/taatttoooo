@@ -11,9 +11,18 @@ use dosamigos\fileinput\FileInput;
   Here you can select a file from your local file system and upload it
   to our "photoshopers". If you have questions, pls. send us an email to
   photoshopers (at) taatttooo com! Thanks!
-  <hr>
-  <img src="<?= Url::to(['/dmsys/getlatestthumb','id'=>$model->dms_id,'module'=>$model->dms_module]); ?>" alt="thumb"/>
-  <hr>
+  <hr/>
+
+<?php
+  $query = $model->getAdapterForFiles($model->dms_module,$model->dms_id);
+  $results = $query->all();
+  foreach($results as $result):
+?>
+
+  <img src="<?= Url::to(['/dmsys/getthumb','id'=>$result->id]); ?>" alt="thumb"/>
+
+<?php endforeach; ?>  
+  <hr/>
 
 <?php $form = ActiveForm::begin([
   'action' => Url::to(['/dmsys/attachfile']),

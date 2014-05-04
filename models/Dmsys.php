@@ -156,7 +156,7 @@ class Dmsys extends \yii\db\ActiveRecord
     */
     public static function getAdapterForFiles($module,$id)
     {
-      return static::find()->where('dms_module = '.$module.' AND dms_id = '.$id)->active()->orderBy('time_created DESC');
+      return static::find()->where('dms_module = '.$module.' AND dms_id = '.$id)->orderBy('time_created DESC');
     }
 
     /**
