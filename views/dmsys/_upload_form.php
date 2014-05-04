@@ -7,6 +7,12 @@ use dosamigos\fileinput\FileInput;
 
 ?>
 
+<p class="bg-color-darken opacity">
+  Here you can select a file from your local file system and upload it
+  to our "photoshopers". If you have questions, pls. send us an email to
+  photoshopers (at) taatttooo com! Thanks!
+  <hr>
+
 <?php $form = ActiveForm::begin([
   'action' => Url::to(['/dmsys/attachfile']),
   'method' => 'post',
@@ -28,3 +34,5 @@ use dosamigos\fileinput\FileInput;
 <?= Html::submitButton(\Yii::t('app','Upload'), ['class' => 'btn btn-info pull-right']) ?>
 
 <?php ActiveForm::end(); ?>
+
+</p>

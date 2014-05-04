@@ -12,13 +12,10 @@ use yii\widgets\ActiveForm;
 
 <div class="story-form">
 
-    <?php $form = ActiveForm::begin(); ?>
-
-    <?= $form->field($model, 'user_id')->textInput() ?>
-
-    <?= $form->field($model, 'time_deleted')->textInput() ?>
-
-    <?= $form->field($model, 'time_created')->textInput() ?>
+    <?php $form = ActiveForm::begin([
+        'id'=> 'storyform',
+        'options' => ['class' => 'form-horizontal'],
+    ]); ?>
 
     <?= $form->field($model, 'content_tattoo')->textarea(['rows' => 6]) ?>
 
