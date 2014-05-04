@@ -63,13 +63,13 @@ class SiteController extends AppController
         {
             $model = new \app\models\Story;
             $model->uId = \Yii::$app->session->id;
-            $dmsysmodel->dms_id = \Yii::$app->session->id;    
+            $model->save();
         }
         else
         {
             $model = \app\models\Story::findOne($id);
-            $dmsysmodel->dms_id = $model->id;
         }        
+        $dmsysmodel->dms_id = $model->id;
         
         $this->layout = "/onepage";
         return $this->render('index',[
