@@ -156,7 +156,7 @@ class DmsysController extends AppController
    * @return [type]       [description]
    */
   public function actionGetthumb($id,$size='sm'){
-    $model = Dmsys::findOne($id);
+    $model = Dmsys::find()->where(['id'=>$id])->One();
 
     // open the file in a binary mode
     $name = \Yii::$app->basePath."/attachements/".$model->dms_module."/".$model->id."_thumb_".$size.".jpg";
