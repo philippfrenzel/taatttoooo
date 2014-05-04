@@ -116,7 +116,6 @@ class DmsysController extends AppController
               echo "upload failed";
             }
         }
-        exit;
     }
     $model->dms_module = Dmsys::MODULE_STORY;
     $model->uId = \Yii::$app->session->id;
