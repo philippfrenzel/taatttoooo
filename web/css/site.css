@@ -33,6 +33,10 @@ body {
     padding: 70px 15px 20px;
 }
 
+.postbox{
+	margin-top: 5px;
+}
+
 #footer {
 	height: 110px;
 	background-color: #5C4028;

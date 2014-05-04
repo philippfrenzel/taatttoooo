@@ -8,7 +8,7 @@ use yii\widgets\ListView;
     'id' => 'PortletPostsTable',
     'dataProvider'=> $dataProvider,
     'itemView' => 'iviews/_view_story',
-    'layout' => '{items}{pager}',
+    'layout' => '{items}<div class="pull-right">{pager}</div>',
     )
   );
 ?>
