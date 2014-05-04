@@ -25,7 +25,7 @@ use \phpthumb;
  * @property integer $dms_id The primary key of the record referenced by the module.
  * @property integer $creator_id Who created (uploaded) the document to the server.
  * @property integer $time_deleted When was the document deleted.
- * @property integer $time_create When was the docuemnt uploaded to the server (registration start).
+ * @property integer $time_created When was the docuemnt uploaded to the server (registration start).
  */
 
 class Dmsys extends \yii\db\ActiveRecord
@@ -116,7 +116,7 @@ class Dmsys extends \yii\db\ActiveRecord
 	{
 		return [
 			['fileattachement', 'file', 'types'=>'pdf,jpeg,png,jpg,xls,ppt,doc,txt,bmp', 'skipOnEmpty' => true],
-			[['parent', 'owner_id', 'source_security', 'time_expired', 'dms_module','dms_id','creator_id', 'time_deleted', 'time_create'], 'integer'],
+			[['parent', 'owner_id', 'source_security', 'time_expired', 'dms_module','dms_id','creator_id', 'time_deleted', 'time_created'], 'integer'],
 			[['dms_module','dms_id'], 'required'],
       [['filetype'], 'string', 'max' => 40],
 			[['source_path','filename','uId'], 'string', 'max' => 255],
@@ -145,7 +145,7 @@ class Dmsys extends \yii\db\ActiveRecord
       'uId'             => \Yii::t('app','Creator'),
 			'creator_id'      => \Yii::t('app','Creator'),
 			'time_deleted'    => \Yii::t('app','Time Deleted'),
-			'time_create'     => \Yii::t('app','Time Create'),
+			'time_created'     => \Yii::t('app','Time Create'),
 		];
 	}
 
@@ -156,7 +156,7 @@ class Dmsys extends \yii\db\ActiveRecord
     */
     public static function getAdapterForFiles($module,$id)
     {
-      return static::find()->where('dms_module = '.$module.' AND dms_id = '.$id)->active()->orderBy('time_create DESC');
+      return static::find()->where('dms_module = '.$module.' AND dms_id = '.$id)->active()->orderBy('time_created DESC');
     }
 
     /**
@@ -201,9 +201,9 @@ class Dmsys extends \yii\db\ActiveRecord
         $this->uId = Yii::$app->session->id;
       }      
     }
-    if(is_null($this->time_create))
+    if(is_null($this->time_created))
     {
-      $this->time_create = $date->format("U");
+      $this->time_created = $date->format("U");
     }
     return parent::beforeSave($insert);
   }

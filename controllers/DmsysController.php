@@ -60,7 +60,7 @@ class DmsysController extends AppController
               'getthumb',
               'getlatestthumb'
             ),
-            'roles'=>['*'],
+            'roles'=>['?'],
           ]
         ]
       ]
