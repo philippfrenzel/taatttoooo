@@ -59,6 +59,7 @@ class SiteController extends AppController
     {
         $dmsysmodel = new \app\models\Dmsys;
         $dmsysmodel->uId = \Yii::$app->session->id;
+        $dmsysmodel->dms_module = Dmsys::MODULE_STORY;
         if(is_null($id))
         {
             $model = new \app\models\Story;
