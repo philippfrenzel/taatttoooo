@@ -13,9 +13,6 @@
         </div>
     </div>
     <div class="row">
-        <h2>&nbsp;</h2>
-    </div>
-    <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-4 center-block">
             <i class="fa fa-chevron-down fa-5x"></i>                
