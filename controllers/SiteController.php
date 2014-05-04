@@ -62,9 +62,17 @@ class SiteController extends AppController
         $dmsysmodel->dms_module = \app\models\Dmsys::MODULE_STORY;
         if(is_null($id))
         {
-            $model = new \app\models\Story;
-            $model->uId = \Yii::$app->session->id;
-            $model->save();
+            //check if user already has a running session
+            if(\app\models\Story::find()->where(['uId'=>\Yii::$app->session->id])->count() > 0)
+            {
+                $model = \app\models\Story::find()->where(['uId'=>\Yii::$app->session->id])->one();
+            }
+            else
+            {
+                $model = new \app\models\Story;
+                $model->uId = \Yii::$app->session->id;
+                $model->save();
+            }            
         }
         else
         {
