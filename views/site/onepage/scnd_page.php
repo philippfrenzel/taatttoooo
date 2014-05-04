@@ -1,14 +1,14 @@
 <div class="container">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <h2>Upload your pictures...</h2>
             <?= $this->render('/dmsys/_upload_form', ['model'=> new app\models\Dmsys]); ?>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-8">
             <h2>Tell us your story...</h2>
 
             <p class="bg-color-darken opacity">
-                <?= $this->render('/story/_form', ['model'=> new app\models\Story]); ?>
+                <?= $this->render('/story/_form', ['model'=> $model]); ?>
             </p>
         </div>
     </div>

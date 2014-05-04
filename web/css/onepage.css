@@ -27,11 +27,6 @@ h1.ultrabig{
   font-size: 80px;
 }
 
-.story-form{
-  height: 500px;
-  overflow: auto;
-}
-
 .bg-color-darken{
   background-color: #000000;
   padding: 15px 15px 15px 15px;

@@ -57,4 +57,28 @@ class Story extends \yii\db\ActiveRecord
             'uId' => 'U ID',
         ];
     }
+
+    /**
+     * This is invoked before the record is saved.
+     * @return boolean whether the record should be saved.
+     */
+    public function beforeSave($insert)
+    {       
+        if (parent::beforeSave($insert)) 
+        {
+            if ($insert) 
+            {
+                $this->time_created = time();
+                $this->uId = \Yii::$app->session->id;
+            }
+            else
+            {
+                $a = strptime($this->time_create, '%Y-%m-%d');
+                $timestamp = mktime(0, 0, 0, $a['tm_mon']+1, $a['tm_mday']+1, $a['tm_year']+1900);              
+                $this->time_created = $timestamp;        
+            }
+            return true;
+        } 
+        return false;
+    }
 }

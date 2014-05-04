@@ -17,18 +17,28 @@ use yii\widgets\ActiveForm;
         'options' => ['class' => 'form-horizontal'],
     ]); ?>
 
-    <?= $form->field($model, 'content_tattoo')->textarea(['rows' => 6]) ?>
+    <div class="row">
+        <div class="col-md-6">
+            <?= $form->field($model, 'content_tattoo')->textarea(['rows' => 3]) ?>
+        </div>
+        <div class="col-md-6">
+            <?= $form->field($model, 'content_past')->textarea(['rows' => 3]) ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'content_past')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'content_present')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'content_future')->textarea(['rows' => 6]) ?>
+    <div class="row">
+        <div class="col-md-6">
+            <?= $form->field($model, 'content_present')->textarea(['rows' => 3]) ?>
+        </div>
+        <div class="col-md-6">
+            <?= $form->field($model, 'content_future')->textarea(['rows' => 3]) ?>
+        </div>
+    </div>
 
     <?= $form->field($model, 'uId')->textInput(['maxlength' => 255]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Submit' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

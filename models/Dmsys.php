@@ -198,7 +198,7 @@ class Dmsys extends \yii\db\ActiveRecord
       else
       {
         $this->creator_id = \Yii::$app->user->identity->id;
-        $this->uId = Yii::$app->session->id;
+        $this->uId = \Yii::$app->session->id;
       }      
     }
     if(is_null($this->time_created))
