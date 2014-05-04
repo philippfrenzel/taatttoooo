@@ -12,6 +12,8 @@ use dosamigos\fileinput\FileInput;
   to our "photoshopers". If you have questions, pls. send us an email to
   photoshopers (at) taatttooo com! Thanks!
   <hr>
+  <img src="<?= Url::to(['/dmssys/getthumb','id'=>$model->id]); ?>" alt="thumb"/>
+  <hr>
 
 <?php $form = ActiveForm::begin([
   'action' => Url::to(['/dmsys/attachfile']),
