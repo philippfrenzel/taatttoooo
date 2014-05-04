@@ -7,7 +7,7 @@ use dosamigos\fileinput\FileInput;
 
 ?>
 
-<p class="bg-color-darken opacity">
+<div class="bg-color-darken opacity">
   Here you can select a file from your local file system and upload it
   to our "photoshopers". If you have questions, pls. send us an email to
   photoshopers (at) taatttooo com! Thanks!
@@ -38,4 +38,4 @@ use dosamigos\fileinput\FileInput;
 
 <?php ActiveForm::end(); ?>
 
-</p>
+</div>

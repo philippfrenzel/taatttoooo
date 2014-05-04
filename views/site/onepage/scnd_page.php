@@ -7,9 +7,9 @@
         <div class="col-lg-8">
             <h2>Tell us your story...</h2>
 
-            <p class="bg-color-darken opacity">
+            <div class="bg-color-darken opacity">
                 <?= $this->render('/story/_form', ['model'=> $model]); ?>
-            </p>
+            </div>
         </div>
     </div>
     <div class="row">
