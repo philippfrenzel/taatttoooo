@@ -4,17 +4,16 @@ namespace app\widgets;
 use Yii;
 use yii\helpers\Html;
 
-use app\models\Story;
 use app\models\StorySearch;
 
-class PortletPostsSearch extends \frenzelgmbh\appcommon\widgets\Portlet
+class PortletUserStory extends \frenzelgmbh\appcommon\widgets\Portlet
 {
   /**
    * the title which would be displayed if this is an admin portlet
    * @var string
    */
   public $title='Story';
-  
+
   public $maxResults = 5;
 
   protected function renderContent()
@@ -23,8 +22,7 @@ class PortletPostsSearch extends \frenzelgmbh\appcommon\widgets\Portlet
     $dataProvider = $searchModel->search(Yii::$app->request->getQueryParams());
 
     echo $this->render('@app/widgets/views/_stories', [
-        'dataProvider' => $dataProvider,
-        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider
     ]);
   }
 

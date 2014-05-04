@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-4">
 <?php
-    if(class_exists('frenzelgmbh\sblog\widgets\PortletPostsSearch'))
+    if(class_exists('app\widgets\PortletUserStory'))
     {
         echo app\widgets\PortletUserStory::widget([
             'title' => NULL

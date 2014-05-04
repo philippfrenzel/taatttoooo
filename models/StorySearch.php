@@ -32,6 +32,9 @@ class StorySearch extends Story
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'pagination' => [
+                'pageSize' => 2,
+            ],
         ]);
 
         if (!($this->load($params) && $this->validate())) {

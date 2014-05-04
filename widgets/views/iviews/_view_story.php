@@ -1,19 +1,13 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\helpers\HtmlPurifier;
-
-$arr = array();
-$arr = explode("READMORE",$model->content,2);
-$content = $arr[0];
 
 ?>
 
-<div class="post-box">
-  <div class="post-header">
-    <div class="datebox pull-left c_gray">
-      <?= date("M", strtotime($model->time_created)); ?><br>
-      <?= date("d", strtotime($model->time_created)); ?>
-    </div>
+<div class="bg-color-darken opacity">
+  <div class="teaseimg">
+    <img src="<?= Url::to(['/dmsys/getlatestthumb','id'=>$model->id,'module'=>1]); ?>" alt="thumb"/>
   </div>
 </div>
