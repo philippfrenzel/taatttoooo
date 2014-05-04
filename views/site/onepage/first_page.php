@@ -20,7 +20,7 @@
                 <h2>Show us your Tattoo!</h2>
 
                 <p class="bg-color-darken opacity">We care about body art and so we would like to share your style and thoughts. Pls. post us your
-                    pictures in "RAW"-format and we'll prepare a "set" for you. None tattoo will be published without
+                    pictures in "RAW"-format or "JPEG" in high quality and we'll prepare a "set" for you. None tattoo will be published without
                     your aggreament of what our "photoshopers" made out of it!
                 </p>
             </div>
