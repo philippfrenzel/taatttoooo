@@ -34,7 +34,7 @@ class m140503_161721_story extends \yii\db\Migration
 
       $this->createTable('tbl_story',array(
             'id'             => 'INTEGER PRIMARY KEY AUTO_INCREMENT',
-            'user_id'        => 'INTEGER NOT NULL',
+            'user_id'        => 'INTEGER NULL',
             'content_tattoo' => 'TEXT NULL',
             'content_past'   => 'TEXT NULL',
             'content_present'=> 'TEXT NULL',
