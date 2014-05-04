@@ -9,6 +9,15 @@ $config = [
     'bootstrap' => ['log'],
     'extensions' => require(__DIR__ . '/../vendor/yiisoft/extensions.php'),
     'modules' => [
+        'user' => [
+          'class' => 'dektrium\user\Module',
+          'admins' => ['philippfrenzel'],
+          'components'=>[
+            'manager' => [
+                'userClass' => 'frenzelgmbh\appcommon\components\User'
+            ]
+          ]
+        ],
         'packaii' => [
             'class' => 'schmunk42\packaii\Module',
             'gitHubUsername' => 'philippfrenzel',
@@ -19,9 +28,16 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
+        'authManager' => [
+          'class' => 'frenzelgmbh\appcommon\components\User',
+        ],
+        'authClientCollection' => [
+            'class' => 'yii\authclient\Collection',
+            'clients' => [
+                'google' => [
+                    'class' => 'yii\authclient\clients\GoogleOpenId'
+                ]
+            ],
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

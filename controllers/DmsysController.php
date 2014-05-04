@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use \Yii;
+use yii\filters\AccessControl;
 
 use app\models\Dmsys;
 use frenzelgmbh\appcommon\controllers\AppController;
@@ -31,7 +32,7 @@ class DmsysController extends AppController
         ],
       ],
       'AccessControl' => [
-        'class' => '\yii\filters\AccessControl',
+        'class' => AccessControl::className(),
         'rules' => [
           [
             'allow'=>true,
@@ -47,7 +48,19 @@ class DmsysController extends AppController
               'getlatestattachement',
               'jsonbarchartinbox'
             ),
-            'roles'=>array('*'),
+            'roles'=>['@'],
+          ],
+          [
+            'allow'=>true,
+            'actions'=>array(
+              'index',
+              'form',
+              'attachfile',
+              'downloadattachement',
+              'getthumb',
+              'getlatestthumb'
+            ),
+            'roles'=>['*'],
           ]
         ]
       ]
