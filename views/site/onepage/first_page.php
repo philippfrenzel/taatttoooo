@@ -83,21 +83,21 @@ echo philippfrenzel\yii2sly\yii2sly::widget(array(
             </div>
             <div class="col-md-6">
                 <h2>Tattoo</h2>
-                <p class="bg-color-darken">
+                <p class="bg-color-darken opacity">
                     I'm wearing this tattoo because I can. As a child I always wanted to be a fire fighter!
                 </p>
                 <h2>Past</h2>
-                <p class="bg-color-darken">
+                <p class="bg-color-darken opacity">
                     Grewn up in germany on the country side, you sometimes feel bored - so watching cartoons has
                     been my only fun! My favorite cartoon was grisu the small dragon, specially of his father...
                 </p>
                 <h2>Present</h2>
-                <p class="bg-color-darken">
+                <p class="bg-color-darken opacity">
                     Living in vienna and working at a big software companie... watching my little dragon tattoo makes
                     me miss the boring times when I was young...
                 </p>
                 <h2>Future</h2>
-                <p class="bg-color-darken">
+                <p class="bg-color-darken opacity">
                     Who knows... Stay healthy, have fun and maybe a little baby dragon...
                 </p>
             </div>
