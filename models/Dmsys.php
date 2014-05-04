@@ -115,7 +115,7 @@ class Dmsys extends \yii\db\ActiveRecord
 	public function rules()
 	{
 		return [
-			['fileattachement', 'file', 'types'=>'pdf,jpeg,png,jpg,xls,ppt,doc,txt,bmp', 'skipOnEmpty' => true],
+			['fileattachement', 'file', 'types'=>'jpeg,png,jpg,raw,bmp', 'skipOnEmpty' => true],
 			[['parent', 'owner_id', 'source_security', 'time_expired', 'dms_module','dms_id','creator_id', 'time_deleted', 'time_created'], 'integer'],
 			[['dms_module','dms_id'], 'required'],
       [['filetype'], 'string', 'max' => 40],
