@@ -6,7 +6,7 @@
             <h2>Where we from...</h2>
 
             <p class="bg-color-darken opacity">
-                Our headoffice is located in Vienna - Austria. Where we life, study, party and sleep.
+                Our headoffice is located in Vienna - Austria. Where we live, study, party and sleep.
                 We stands for our design team, web coding devision and a lot of wonderfull friends who 
                 support us. If you wanna join one of them, let us know! webmaster (at) taatttoooo com will
                 be your point of interest.
