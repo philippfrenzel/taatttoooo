@@ -125,7 +125,7 @@ class DmsysController extends AppController
     }
     $model->dms_module = Dmsys::MODULE_STORY;
     $model->uId = \Yii::$app->session->id;
-    return $this->render('_upload_form', [
+    return $this->render('_form', [
         'model' => $model,
     ]);
   }
