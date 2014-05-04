@@ -145,7 +145,7 @@ class Dmsys extends \yii\db\ActiveRecord
       'uId'             => \Yii::t('app','Creator'),
 			'creator_id'      => \Yii::t('app','Creator'),
 			'time_deleted'    => \Yii::t('app','Time Deleted'),
-			'time_created'     => \Yii::t('app','Time Create'),
+			'time_created'    => \Yii::t('app','Time Create'),
 		];
 	}
 

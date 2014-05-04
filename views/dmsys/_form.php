@@ -16,11 +16,14 @@ use yii\widgets\ActiveForm;
 		<?= $form->field($model, 'fileattachement') ?>
 		<?= $form->field($model, 'parent') ?>
 		<?= $form->field($model, 'owner_id') ?>
+		<?= $form->field($model, 'uId') ?>
 		<?= $form->field($model, 'source_security') ?>
 		<?= $form->field($model, 'time_expired') ?>
 		<?= $form->field($model, 'creator_id') ?>
 		<?= $form->field($model, 'time_deleted') ?>
-		<?= $form->field($model, 'time_create') ?>
+		<?= $form->field($model, 'dms_module') ?>
+		<?= $form->field($model, 'dms_id') ?>
+		<?= $form->field($model, 'time_created') ?>
 		<?= $form->field($model, 'source_path') ?>
 		<?= $form->field($model, 'used_space') ?>
 		<?= $form->field($model, 'status') ?>
