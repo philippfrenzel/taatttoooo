@@ -4,8 +4,18 @@
             <div class="col-md-6">
                 <h1 class="ultrabig">Show us your Tattoo and tell us the Story!</h1>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-2">
                 
+            </div>
+            <div class="col-md-4">
+<?php
+    if(class_exists('frenzelgmbh\sblog\widgets\PortletPostsSearch'))
+    {
+        echo app\widgets\PortletUserStory::widget([
+            'title' => NULL
+        ]);
+    }
+?>
             </div>
         </div>
 
