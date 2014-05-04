@@ -13,6 +13,11 @@ body {
 	min-height: 96px;
 }
 
+.navbar-nav{
+	font-family: Lobster, Open Sans, sans-serif;
+	font-size: 24px;
+}
+
 .navbar-inverse{
 	background-color: #000000;
 }

@@ -16,7 +16,7 @@ use yii\helpers\Url;
     <?php $form = ActiveForm::begin([
         'id'=> 'storyform',
         'action' => $model->isNewRecord ? Url::to(['/story/create']) : Url::to(['/story/update','id'=>$model->id]),
-        'options' => ['class' => 'form-horizontal'],
+        //'options' => ['class' => 'form-horizontal'],
     ]); ?>
 
     <div class="row">
@@ -44,5 +44,5 @@ use yii\helpers\Url;
     </div>
 
     <?php ActiveForm::end(); ?>
-
+&nbsp;
 </div>
