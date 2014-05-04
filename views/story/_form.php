@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\Url;
 
 /**
  * @var yii\web\View $this
@@ -14,6 +15,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin([
         'id'=> 'storyform',
+        'action' => Url::to(['/story/create']),
         'options' => ['class' => 'form-horizontal'],
     ]); ?>
 

@@ -59,11 +59,11 @@ class SiteController extends AppController
     {
         $session = new Session;
         $session->open();
+        $session['webname'] = 'Taatttoooo';
 
         //needs to be refactored
         $model = new \app\models\Story;
-
-        $session['webname'] = 'Taatttoooo';
+        
         $this->layout = "/onepage";
         return $this->render('index',[
             'model' => $model,
