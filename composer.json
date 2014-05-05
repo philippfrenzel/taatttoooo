@@ -19,15 +19,11 @@
 		"yiisoft/yii2-bootstrap": "*",
 		"yiisoft/yii2-swiftmailer": "*",
 		"frenzelgmbh/appcommon": "*",
+		"frenzelgmbh/cm-address":"dev-master",
 		"jamesheinrich/phpthumb": "dev-master",
 		"2amigos/yii2-file-input-widget" : "*",
 		"philippfrenzel/yii2fullpagejs": "dev-master",
 		"philippfrenzel/yii2sly": "dev-master"
-	},
-	"require-dev": {
-		"yiisoft/yii2-codeception": "*",
-		"yiisoft/yii2-debug": "*",
-		"yiisoft/yii2-gii": "*"
 	},
 	"suggest": {
 		"codeception/codeception": "Codeception, 1.8.*@dev is currently works well with Yii.",
