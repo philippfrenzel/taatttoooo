@@ -18,6 +18,9 @@ $config = [
             ]
           ]
         ],
+        'address'=>[
+            'class' => 'frenzelgmbh\cm-address\Module',
+        ],
         'packaii' => [
             'class' => 'schmunk42\packaii\Module',
             'gitHubUsername' => 'philippfrenzel',
