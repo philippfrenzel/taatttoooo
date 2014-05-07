@@ -28,7 +28,7 @@ class StorySearch extends Story
 
     public function search($params)
     {
-        $query = Story::find();
+        $query = Story::find()->orderBy(['time_created'=>SORT_DESC]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
