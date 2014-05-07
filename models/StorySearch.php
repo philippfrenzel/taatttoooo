@@ -54,6 +54,8 @@ class StorySearch extends Story
             ->andFilterWhere(['like', 'content_future', $this->content_future])
             ->andFilterWhere(['like', 'uId', $this->uId]);
 
+        //$query->andFilterWhere(['not','content_tattoo', '']);
+
         return $dataProvider;
     }
 }
