@@ -19,7 +19,7 @@ $config = [
           ]
         ],
         'address'=>[
-            'class' => 'frenzelgmbh\cm-address\Module',
+            'class' => 'frenzelgmbh\cmaddress\Module',
         ],
         'packaii' => [
             'class' => 'schmunk42\packaii\Module',
