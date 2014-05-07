@@ -53,7 +53,7 @@ Icon::map($this);
 			echo Nav::widget([
 				'options' => ['class' => 'navbar-nav navbar-right'],
 				'items' => [
-					['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
+					['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'slide1'],
 					['label' => 'About', 'url' => ['/site/index#intro2'],'data-menuanchor'=>'intro2'],
 					['label' => 'Tell Us!', 'url' => ['/site/index#intro3'],'data-menuanchor'=>'intro3'],
 					['label' => 'Contact', 'url' => ['/site/contact']],
@@ -69,7 +69,7 @@ Icon::map($this);
 
 	<?= yii2fullpagejs::widget([
 		'clientOptions'=>[
-			//'menu'=>'#myMainMenu'
+			'menu'=>'#myMainMenu'
 		]
 	]); ?>
 
