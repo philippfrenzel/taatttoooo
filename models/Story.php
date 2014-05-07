@@ -48,7 +48,7 @@ class Story extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'user_id' => 'User ID',
-            'content_tattoo' => 'Your Tattoo',
+            'content_tattoo' => 'Your Story',
             'content_past' => 'About your Past',
             'content_present' => 'Your Present',
             'content_future' => 'For your Future',
