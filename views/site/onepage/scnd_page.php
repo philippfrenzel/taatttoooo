@@ -11,16 +11,11 @@
                 <?= $this->render('/story/_form', ['model'=> $model]); ?>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-4 center-block">
-            <i class="fa fa-chevron-down fa-5x"></i>                
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-8"><h2>Scroll down to read more...</h2></div>            
-    </div>
+    </div>    
 </div>
+<footer id="footer" class="opacity">
+    <div class="container">
+        <p class="pull-left">&copy; Taatttoooo.com <?= date('Y') ?></p>
+        <p class="pull-right">Frenzel GmbH &lt;frenzel.net&gt;</p>
+    </div>
+</footer>
