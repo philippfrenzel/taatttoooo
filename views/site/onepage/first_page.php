@@ -1,6 +1,9 @@
 <div class="slide" data-anchor="slide1" id="slide1">
     <div class="container">
         <div class="row">
+            <h2>&nbsp;</h2>
+        </div>
+        <div class="row">
             <div class="col-lg-7">
                 <div class="row">
                     <div class="col-md-4">
@@ -29,36 +32,24 @@
                 </div>
             </div>
             <div class="col-lg-5">
-                <h2>A tattoo about Texas?</h2>
+                <h2>&nbsp;</h2>                
                 <div class="bg-color-darken opacity">
+                    <h4>A tattoo about Texas?</h4>
                     <p>
                         I’ve never seen a place with more proud people and proud tattoos of where they’re from than Texas. 
                         If you have one, and want to share, let us know! 
                     </p>
-                </div>
-
-                <h2>Anything else you’d like to share?</h2>
-
+                </div>                
+                <p>&nbsp;</p>
                 <div class="bg-color-darken opacity">
+                    <h4>Anything else you’d like to share?</h4>
                     <p>
                         A song, a quote, a memory. If you know others who might want to contribute, 
                         share with them too!  
                     </p>
                 </div>
-
-                <?php
-                    if(class_exists('app\widgets\PortletUserStory'))
-                    {
-                        echo app\widgets\PortletUserStory::widget([
-                            'title' => NULL
-                        ]);
-                    }
-                ?>
             </div>        
-        </div>
-        <div class="row">
-            <h2>&nbsp;</h2>
-        </div>
+        </div>        
         <div class="row">
             <div class="col-md-6"></div>
             <div class="col-md-4 center-block">
@@ -67,13 +58,28 @@
             <div class="col-md-2"></div>
         </div>
         <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-7"><h2>read more ...</h2></div>            
+            <div class="col-md-4"></div>
+            <div class="col-md-8"><h2>Scroll down to read more ...</h2></div>            
         </div>
     </div>
 </div>
 
 <div class="slide" data-anchor="slide2" id="slide2">
+    <div class="container">
+        <div class="row">
+        <?php
+            if(class_exists('app\widgets\PortletUserStory'))
+            {
+                echo app\widgets\PortletUserStory::widget([
+                    'title' => NULL
+                ]);
+            }
+        ?>
+        </div>
+    </div>
+</div>
+
+<div class="slide" data-anchor="slide3" id="slide3">
     <div class="container">
         <div class="row">
             <div class="col-md-6 bg-color-darken">

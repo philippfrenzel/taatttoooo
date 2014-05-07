@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-6">
             <h2>Who we are:</h2>
 
             <div class="bg-color-darken opacity">
