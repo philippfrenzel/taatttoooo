@@ -33,7 +33,7 @@ class StorySearch extends Story
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
             'pagination' => [
-                'pageSize' => 2,
+                'pageSize' => 4,
             ],
         ]);
 
