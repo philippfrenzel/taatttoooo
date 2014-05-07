@@ -2,7 +2,7 @@
 /**
  * @var yii\web\View $this
  */
-$this->title = 'Taatttoooo Startpage';
+$this->title = 'Lonestar Love - Texas in your heart and mind!';
 ?>
 <div class="section" id="intro1" data-anchor="intro1">
     <?= $this->render('onepage/first_page', []); ?>
