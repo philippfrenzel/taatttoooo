@@ -8,8 +8,8 @@ $this->title = 'Taatttoooo Startpage';
     <?= $this->render('onepage/first_page', []); ?>
 </div>
 <div class="section" id="intro2" data-anchor="intro2">
-    <?= $this->render('onepage/scnd_page', ['model' => $model,'dmsysmodel'=>$dmsysmodel]); ?>
+    <?= $this->render('onepage/thrd_page', []); ?>
 </div>
 <div class="section" id="intro3" data-anchor="intro3">
-    <?= $this->render('onepage/thrd_page', []); ?>
+    <?= $this->render('onepage/scnd_page', ['model' => $model,'dmsysmodel'=>$dmsysmodel]); ?>
 </div>

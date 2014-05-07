@@ -37,7 +37,7 @@ AppAsset::register($this);
     ?>
 
     <div class="navbar-brand">
-        <img src="img/LogoTaatttooooNavbar.png" alt="Taatttoooo - Share your Tattoo and Story">
+        <img src="img/lonestarlogo_small.png" alt="Lonestar Love - Share your Tattoo and Story">
     </div>
 
     <?php

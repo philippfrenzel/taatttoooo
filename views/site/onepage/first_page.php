@@ -4,12 +4,14 @@
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4">
-                <h2>Show us your Tattoo!</h2>
+                <h2>Do you have:</h2>
 
-                <p class="bg-color-darken opacity">We care about body art and so we would like to share your style and thoughts. Pls. post us your
-                    pictures in "RAW"-format or "JPEG" in high quality and we'll prepare a "set" for you. None tattoo will be published without
-                    your aggreament of what our "photoshopers" made out of it!
-                </p>
+                <div class="bg-color-darken opacity">
+                    <h4>A favorite place?</h4>
+                    <p>
+                        It can be a restaurant
+                    </p>
+                </div>
             </div>
             <div class="col-lg-4">
                 <h2>And tell us the Story!</h2>
@@ -23,7 +25,8 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h1 class="ultrabig">Show us your Tattoo and tell us the Story!</h1>
+                <h1 class="ultrabig">Are you reading this from Texas ?</h1>
+                <h3 class="subultra">(or are you from there ?)</h3>
             </div>
             <div class="col-md-2">
                 
@@ -50,8 +53,8 @@
             <div class="col-md-2"></div>
         </div>
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-8"><h2>Scroll down to read more...</h2></div>            
+            <div class="col-md-5"></div>
+            <div class="col-md-7"><h2>read more ...</h2></div>            
         </div>
     </div>
 </div>

@@ -10,12 +10,13 @@ body {
 }
 
 .navbar{
-	min-height: 90px;
+	min-height: 120px;
 }
 
 .navbar-nav{
 	font-family: Lobster, Open Sans, sans-serif;
 	font-size: 20px;
+	margin: 20px;
 }
 
 .navbar-inverse{

@@ -46,7 +46,7 @@ Icon::map($this);
 	?>
 
 	<div class="navbar-brand">
-		<img src="img/LogoTaatttooooNavbar.png" alt="Taatttoooo - Share your Tattoo and Story">
+		<img src="img/lonestarlogo_small.png" alt="Lonestar Love - Share your Tattoo and Story">
 	</div>
 
 	<?php
@@ -54,8 +54,8 @@ Icon::map($this);
 				'options' => ['class' => 'navbar-nav navbar-right'],
 				'items' => [
 					['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
-					['label' => 'Tell Us!', 'url' => ['/site/index#intro2'],'data-menuanchor'=>'intro2'],
-					['label' => 'About', 'url' => ['/site/index#intro3'],'data-menuanchor'=>'intro3'],
+					['label' => 'About', 'url' => ['/site/index#intro2'],'data-menuanchor'=>'intro2'],
+					['label' => 'Tell Us!', 'url' => ['/site/index#intro3'],'data-menuanchor'=>'intro3'],
 					['label' => 'Contact', 'url' => ['/site/contact']],
 					Yii::$app->user->isGuest ?
 						['label' => 'Login', 'url' => ['/user/security/login']] :
