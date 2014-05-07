@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-4">
             <h1 class="ultrabig">About Us!</h1>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-8">
             
         </div>
     </div>
