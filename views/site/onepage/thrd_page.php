@@ -1,5 +1,13 @@
 <div class="container">
     <div class="row">
+        <div class="col-md-6">
+            <h1 class="ultrabig">About Us!</h1>
+        </div>
+        <div class="col-md-6">
+            
+        </div>
+    </div>
+    <div class="row">
         <div class="col-lg-2">
         </div>
         <div class="col-lg-6">
@@ -47,15 +55,7 @@
     </div>
     <div class="row">
        &nbsp;
-   </div>
-    <div class="row">
-        <div class="col-md-6">
-            <h1 class="ultrabig">About Us!</h1>
-        </div>
-        <div class="col-md-6">
-            
-        </div>
-    </div>
+   </div>    
     <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-4 center-block">
