@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="ultrabig">Are you reading this from Texas ?</h1>
-                        <h3 class="subultra">(or are you from there ?)</h3>
+                        <h2 class="subultra">(or are you from there ?)</h2>
                     </div>
                 </div>
             </div>

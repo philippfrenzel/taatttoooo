@@ -36,6 +36,7 @@ class Story extends \yii\db\ActiveRecord
             //[['user_id'], 'required'],
             [['user_id', 'time_deleted', 'time_created'], 'integer'],
             [['content_tattoo', 'content_past', 'content_present', 'content_future'], 'string'],
+            [['content_present'],'email'],
             [['uId'], 'string', 'max' => 255]
         ];
     }
@@ -49,8 +50,8 @@ class Story extends \yii\db\ActiveRecord
             'id' => 'ID',
             'user_id' => 'User ID',
             'content_tattoo' => 'Your Story',
-            'content_past' => 'About your Past',
-            'content_present' => 'Your Present',
+            'content_past' => 'Name',
+            'content_present' => 'eMail',
             'content_future' => 'For your Future',
             'time_deleted' => 'Time Deleted',
             'time_created' => 'Time Created',

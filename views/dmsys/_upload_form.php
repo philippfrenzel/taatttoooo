@@ -8,9 +8,12 @@ use dosamigos\fileinput\FileInput;
 ?>
 
 <div class="bg-color-darken opacity">
-  Here you can select a file from your local file system and upload it
-  to our "photoshopers". If you have questions, pls. send us an email to
-  photoshopers (at) taatttooo com! Thanks!
+  By submitting a photo and/or story , you give us permission to share it with the community, 
+  use and/or post it on our facebook, kickstarter, or any other social media page managed by us, 
+  as well as modify it in anyway. <br>
+  Your photos won’t be used in the book, so don’t worry so much about quality and composition. 
+  But if it’s something really cool and we’d like more information or to meet up with you 
+  for more details or pictures,  then make sure to leave you contact info!
   <hr/>
 
 <?php

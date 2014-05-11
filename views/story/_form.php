@@ -25,13 +25,19 @@ use yii\helpers\Url;
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-12">
+            <?= $form->field($model, 'content_past') ?>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <?= $form->field($model, 'content_present') ?>
+        </div>
+    </div>
+
     <!--div class="row">
-        <div class="col-md-6">
-            <?php //= $form->field($model, 'content_past')->textarea(['rows' => 3]) ?>
-        </div>
-        <div class="col-md-6">
-            <?php //= $form->field($model, 'content_present')->textarea(['rows' => 3]) ?>
-        </div>
         <div class="col-md-6">
             <?php //= $form->field($model, 'content_future')->textarea(['rows' => 3]) ?>
         </div>
