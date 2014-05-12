@@ -1,11 +1,13 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ListView;
+use yii\widgets\Pjax;
 ?>
 
 <h2>Recent Stories...</h2>
 
 <?php 
+Pjax::begin();
   echo ListView::widget(array(
     'id' => 'PortletPostsTable',
     'dataProvider'=> $dataProvider,
@@ -13,4 +15,5 @@ use yii\widgets\ListView;
     'layout' => '{items}{pager}',
     )
   );
+Pjax::end();
 ?>

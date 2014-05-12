@@ -15,7 +15,7 @@
 </div>
 <footer id="footer" class="opacity">
     <div class="container">
-        <p class="pull-left">&copy; Taatttoooo.com <?= date('Y') ?></p>
-        <p class="pull-right">Frenzel GmbH &lt;frenzel.net&gt;</p>
+        <p class="pull-left">&copy; cassandrapate.com <?= date('Y') ?></p>
+        <p class="pull-right">&lt;frenzel.net&gt;</p>
     </div>
 </footer>
