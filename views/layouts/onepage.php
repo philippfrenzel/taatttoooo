@@ -73,8 +73,9 @@ Icon::map($this);
 		]
 	]); ?>
 
-	
+<div id="onepage">	
 	<?= $content ?>	
+</div>
 
 <?php $this->endBody() ?>
 </body>

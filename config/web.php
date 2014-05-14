@@ -18,6 +18,9 @@ $config = [
             ]
           ]
         ],
+        'gridview' =>  [
+            'class' => '\kartik\grid\Module'
+        ],
         'address'=>[
             'class' => 'frenzelgmbh\cmaddress\Module',
         ],
